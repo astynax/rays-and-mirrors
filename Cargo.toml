@@ -6,3 +6,4 @@ edition = "2024"
 [dependencies]
 ansi-escapes = "0.2.0"
 ansi_term = "0.12.1"
+termwiz = "0.23.3"
