@@ -2,6 +2,10 @@
 
 This is a non-interactive demo app that show an animated scene where rays of colored lights are slowly travelling through the field, reflecting from the mirrors, splitting and combining by passing throght prisms. The app works in your terminal in a "full-screen mode" and uses text characters and ANSI escape codes.
 
+## How to
+
+Just `git clone` + `cargo run`!
+
 ## Ray colors
 
 The app uses basic ANSI palette made of 16 colors. This makes possible to add two rays of the same dark shade of color and get a single bright ray. Three bright rays of red, green and blue color being combined become a single white ray.
@@ -18,4 +22,4 @@ Initially field appears free of any light but containing a few randomly choosen 
 
 ## The scene evolution
 
-Under the hood all the lights are pregenerated and always walking from some source up to some terminator or up to the border of the visible area. The app is just animating their propagation one screen character at the time. After the scene stabilizes, i.e. is there nothing to animate, the app clears the screen, generated a new field, and then starting to animate this new scene.
+Under the hood all the lights are pregenerated and always walking from some source up to some terminator or up to the border of the visible area. The app is just animating their propagation one screen character at the time.
