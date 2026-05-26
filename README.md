@@ -2,6 +2,8 @@
 
 This is a non-interactive demo app that show an animated scene where rays of colored lights are slowly travelling through the field, reflecting from the mirrors, splitting and combining by passing throght prisms. The app works in your terminal in a "full-screen mode" and uses text characters and ANSI escape codes.
 
+![demo](./assets/demo.gif)
+
 ## How to
 
 Just `git clone` + `cargo run`!
