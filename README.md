@@ -1,6 +1,6 @@
 # Rays and Mirrors
 
-This is a non-interactive demo app that show an animated scene where rays of colored lights are slowly travelling through the field, reflecting from the mirrors, splitting and combining by passing throght prisms. The app works in your terminal in a "full-screen mode" and uses text characters and ANSI escape codes.
+This is a non-interactive demo app that shows an animated scene where rays of colored lights are slowly traveling through the field, reflecting from the mirrors, splitting and combining by passing through prisms. The app works in your terminal in a "full-screen mode" and uses text characters and ANSI escape codes.
 
 ![demo](./assets/demo.gif)
 
@@ -16,7 +16,7 @@ Any two rays crossing each other out of the intersection colored with the same c
 
 ## The field
 
-Initially field appears free of any light but containing a few randomly choosen and placed "gadgets" like:
+Initially field appears free of any light but containing a few randomly chosen and placed "gadgets" like:
 
 - **light sources** emitting the rays, just a single "pieces" of the light with some color, always appear on the edges of the screen like the light is coming from the ouside.
 - **mirrors** either "left upper corner to right down" (\) or "left down corner to right upper" (/).
